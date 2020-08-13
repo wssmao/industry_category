@@ -101,7 +101,7 @@ insert into industry_category (ID, INDUSTRY_ID, NAME, PARENT_ID, LEVEL_TYPE, DES
 values (34, '017', '中药材种植', '01', 2, '指主要用于中药配制以及中成药加工的药材作物的种植');
 
 insert into industry_category (ID, INDUSTRY_ID, NAME, PARENT_ID, LEVEL_TYPE, DESCRIPTION)
-values (35, '0171', '中药材种植', '017', 3, '指主要用于中药配制以及中成药加工的各种中草药材作物的种植');
+values (35, '0171', '中草药种植', '017', 3, '指主要用于中药配制以及中成药加工的各种中草药材作物的种植');
 
 insert into industry_category (ID, INDUSTRY_ID, NAME, PARENT_ID, LEVEL_TYPE, DESCRIPTION)
 values (36, '018', '草种植及割草', '01', 2, null);
@@ -930,7 +930,7 @@ insert into industry_category (ID, INDUSTRY_ID, NAME, PARENT_ID, LEVEL_TYPE, DES
 values (312, '1939', '其他毛皮制品加工', '193', 3, '指用各种动物毛皮和人造毛皮为材料，加工制作上述类别未列明的其他各种用途毛皮制品的生产活动');
 
 insert into industry_category (ID, INDUSTRY_ID, NAME, PARENT_ID, LEVEL_TYPE, DESCRIPTION)
-values (313, '194', '羽毛(绒)加工及制品制造', '19', 2, null);
+values (313, '194', '羽毛（绒）加工及制品制造', '19', 2, null);
 
 insert into industry_category (ID, INDUSTRY_ID, NAME, PARENT_ID, LEVEL_TYPE, DESCRIPTION)
 values (314, '1941', '羽毛（绒）加工', '194', 3, '指对鹅、鸭等禽类羽毛进行加工成标准毛的生产活动');
@@ -1410,7 +1410,7 @@ insert into industry_category (ID, INDUSTRY_ID, NAME, PARENT_ID, LEVEL_TYPE, DES
 values (472, '268', '日用化学产品制造', '26', 2, null);
 
 insert into industry_category (ID, INDUSTRY_ID, NAME, PARENT_ID, LEVEL_TYPE, DESCRIPTION)
-values (473, '2681', '肥皂及合成洗涤剂制造', '268', 3, '指以喷洒、涂抹、浸泡等方式施用于肌肤、器皿、织物、硬表面，即冲即洗，起到清洁、去污、渗透、乳化、分散、护理、消毒除菌等功能，广泛用于家居、个人清洁卫生、织物清洁护理、工业清洗、公共设施及环境卫生清洗等领域的产品（固、液、粉、膏、片状等），以及中间体表面活性剂产品的制造');
+values (473, '2681', '肥皂及洗涤剂制造', '268', 3, '指以喷洒、涂抹、浸泡等方式施用于肌肤、器皿、织物、硬表面，即冲即洗，起到清洁、去污、渗透、乳化、分散、护理、消毒除菌等功能，广泛用于家居、个人清洁卫生、织物清洁护理、工业清洗、公共设施及环境卫生清洗等领域的产品（固、液、粉、膏、片状等），以及中间体表面活性剂产品的制造');
 
 insert into industry_category (ID, INDUSTRY_ID, NAME, PARENT_ID, LEVEL_TYPE, DESCRIPTION)
 values (474, '2682', '化妆品制造', '268', 3, '指以涂抹、喷洒或者其他类似方法，撒布于人体表面任何部位（皮肤、毛发、指甲、口唇等），以达到清洁、消除不良气味、护肤、美容和修饰目的的日用化学工业产品的制造');
@@ -1857,7 +1857,7 @@ insert into industry_category (ID, INDUSTRY_ID, NAME, PARENT_ID, LEVEL_TYPE, DES
 values (621, '3332', '金属压力容器制造', '333', 3, '指用于存装压缩气体、液化气体及其他具有一定压力的液体物质的金属容器（不论其是否配有顶盖、塞子，或衬有除铁、钢、铝以外的材料）的制造');
 
 insert into industry_category (ID, INDUSTRY_ID, NAME, PARENT_ID, LEVEL_TYPE, DESCRIPTION)
-values (622, '3333', '金属包装容器制造', '333', 3, '指主要为商品运输或包装而制作的金属包装容器及附件的制造');
+values (622, '3333', '金属包装容器及材料制造', '333', 3, '指主要为商品运输或包装而制作的金属包装容器及附件的制造');
 
 insert into industry_category (ID, INDUSTRY_ID, NAME, PARENT_ID, LEVEL_TYPE, DESCRIPTION)
 values (623, '334', '金属丝绳及其制品制造', '33', 2, null);
@@ -2363,7 +2363,7 @@ values (789, '3660', '汽车车身、挂车制造', '366', 3, '指其设计和�
 
 
 insert into industry_category (ID, INDUSTRY_ID, NAME, PARENT_ID, LEVEL_TYPE, DESCRIPTION)
-values (790, '37', '铁路运输设备制造', 'C', 1, null);
+values (790, '37', '铁路、船舶、航空航天和其他运输设备制造业', 'C', 1, null);
 
 insert into industry_category (ID, INDUSTRY_ID, NAME, PARENT_ID, LEVEL_TYPE, DESCRIPTION)
 values (791, '371', '铁路运输设备制造', '37', 2, null);
@@ -2576,7 +2576,7 @@ insert into industry_category (ID, INDUSTRY_ID, NAME, PARENT_ID, LEVEL_TYPE, DES
 values (860, '3855', '家用清洁卫生电器具制造', '385', 3, '指家用洗衣机、吸尘器等电力器具的制造');
 
 insert into industry_category (ID, INDUSTRY_ID, NAME, PARENT_ID, LEVEL_TYPE, DESCRIPTION)
-values (861, '3856', '家用美容、保健电器具制造', '385', 3, null);
+values (861, '3856', '家用美容、保健护理电器具制造', '385', 3, null);
 
 insert into industry_category (ID, INDUSTRY_ID, NAME, PARENT_ID, LEVEL_TYPE, DESCRIPTION)
 values (862, '3857', '家用电力器具专用配件制造', '385', 3, '指家用电力器具专用配件的制造，不包括通用零部件制造');
@@ -3074,7 +3074,7 @@ insert into industry_category (ID, INDUSTRY_ID, NAME, PARENT_ID, LEVEL_TYPE, DES
 values (1026, '4819', '其他道路、隧道和桥梁工程建筑', '481', 3, null);
 
 insert into industry_category (ID, INDUSTRY_ID, NAME, PARENT_ID, LEVEL_TYPE, DESCRIPTION)
-values (1027, '482', '水利和内河港口工程建筑', '48', 2, null);
+values (1027, '482', '水利和水运工程建筑', '48', 2, null);
 
 insert into industry_category (ID, INDUSTRY_ID, NAME, PARENT_ID, LEVEL_TYPE, DESCRIPTION)
 values (1028, '4821', '水源及供水设施工程建筑', '482', 3, null);
@@ -3191,7 +3191,7 @@ insert into industry_category (ID, INDUSTRY_ID, NAME, PARENT_ID, LEVEL_TYPE, DES
 values (1065, '4991', '体育场地设施安装', '499', 3, '指运动地面（如足球场、篮球场、网球场等）、滑冰、游泳设施（含可拼装设施、健身步道）的安装等');
 
 insert into industry_category (ID, INDUSTRY_ID, NAME, PARENT_ID, LEVEL_TYPE, DESCRIPTION)
-values (1066, '4999', '其他建筑安装业', '499', 3, '包括智能化安装、救援逃生设备安装及其他未列明的安装活动');
+values (1066, '4999', '其他建筑安装', '499', 3, '包括智能化安装、救援逃生设备安装及其他未列明的安装活动');
 
 insert into industry_category (ID, INDUSTRY_ID, NAME, PARENT_ID, LEVEL_TYPE, DESCRIPTION)
 values (1067, '50', '建筑装饰、装修和其他建筑业', 'E', 1, null);
@@ -3545,7 +3545,7 @@ insert into industry_category (ID, INDUSTRY_ID, NAME, PARENT_ID, LEVEL_TYPE, DES
 values (1183, '5243', '图书、报刊零售', '524', 3, null);
 
 insert into industry_category (ID, INDUSTRY_ID, NAME, PARENT_ID, LEVEL_TYPE, DESCRIPTION)
-values (1184, '5244', '音像制品及电子出版物零售', '524', 3, null);
+values (1184, '5244', '音像制品、电子和数字出版物零售', '524', 3, null);
 
 insert into industry_category (ID, INDUSTRY_ID, NAME, PARENT_ID, LEVEL_TYPE, DESCRIPTION)
 values (1185, '5245', '珠宝首饰零售', '524', 3, null);
@@ -4499,10 +4499,10 @@ insert into industry_category (ID, INDUSTRY_ID, NAME, PARENT_ID, LEVEL_TYPE, DES
 values (1501, '7030', '房地产中介服务', '703', 3, '指房地产咨询、房地产价格评估、房地产经纪等活动');
 
 insert into industry_category (ID, INDUSTRY_ID, NAME, PARENT_ID, LEVEL_TYPE, DESCRIPTION)
-values (1502, '704', '自有房地产经营活动', '70', 2, null);
+values (1502, '704', '房地产租赁经营', '70', 2, null);
 
 insert into industry_category (ID, INDUSTRY_ID, NAME, PARENT_ID, LEVEL_TYPE, DESCRIPTION)
-values (1503, '7040', '自有房地产经营活动', '704', 3, '指除房地产开发商、房地产中介、物业公司以外的单位和居民住户对自有房地产（土地、住房、生产经营用房和办公用房）的买卖和以营利为目的的租赁活动，以及房地产管理部门和企事业、机关提供的非营利租赁服务，还包括居民居住自有住房所形成的住房服务');
+values (1503, '7040', '房地产租赁经营', '704', 3, '指除房地产开发商、房地产中介、物业公司以外的单位和居民住户对自有房地产（土地、住房、生产经营用房和办公用房）的买卖和以营利为目的的租赁活动，以及房地产管理部门和企事业、机关提供的非营利租赁服务，还包括居民居住自有住房所形成的住房服务');
 
 insert into industry_category (ID, INDUSTRY_ID, NAME, PARENT_ID, LEVEL_TYPE, DESCRIPTION)
 values (1504, '709', '其他房地产业', '70', 2, null);
@@ -4523,7 +4523,7 @@ insert into industry_category (ID, INDUSTRY_ID, NAME, PARENT_ID, LEVEL_TYPE, DES
 values (1509, '7111', '汽车租赁', '711', 3, null);
 
 insert into industry_category (ID, INDUSTRY_ID, NAME, PARENT_ID, LEVEL_TYPE, DESCRIPTION)
-values (1510, '7112', '农业机械租赁', '711', 3, null);
+values (1510, '7112', '农业机械经营租赁', '711', 3, null);
 
 insert into industry_category (ID, INDUSTRY_ID, NAME, PARENT_ID, LEVEL_TYPE, DESCRIPTION)
 values (1511, '7113', '建筑工程机械与设备经营租赁', '711', 3, null);
@@ -4895,7 +4895,7 @@ insert into industry_category (ID, INDUSTRY_ID, NAME, PARENT_ID, LEVEL_TYPE, DES
 values (1633, '751', '技术推广服务', '75', 2, '指将新技术、新产品、新工艺直接推向市场而进行的相关技术活动，以及技术推广和转让活动');
 
 insert into industry_category (ID, INDUSTRY_ID, NAME, PARENT_ID, LEVEL_TYPE, DESCRIPTION)
-values (1634, '7511', '农业技术推广服务', '751', 3, null);
+values (1634, '7511', '农林牧渔技术推广服务', '751', 3, null);
 
 insert into industry_category (ID, INDUSTRY_ID, NAME, PARENT_ID, LEVEL_TYPE, DESCRIPTION)
 values (1635, '7512', '生物技术推广服务', '751', 3, null);
@@ -5919,7 +5919,8 @@ insert into industry_category (INDUSTRY_ID, NAME, PARENT_ID, LEVEL_TYPE, DESCRIP
 values ('9320', '民主党派', '932', 3, null);
 
 
-
+insert into industry_category (INDUSTRY_ID, NAME, PARENT_ID, LEVEL_TYPE, DESCRIPTION)
+values ('0179', '', '017', 3, null);
 
 
 
